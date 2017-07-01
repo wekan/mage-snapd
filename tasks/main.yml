@@ -3,3 +3,5 @@
 - name: "Including distro-specific variables"
   include_vars: "vars_{{ ansible_distribution }}.yml"
 
+- name: "Setting things up for {{ ansible_distribution }}"
+  include: "setup_{{ ansible_distribution }}.yml"
