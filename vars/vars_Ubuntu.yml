@@ -1,0 +1,4 @@
+---
+mage_packages:
+  - squashfuse
+  - snapd

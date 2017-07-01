@@ -1,0 +1,5 @@
+---
+
+- name: "Including distro-specific variables"
+  include_vars: "vars_{{ ansible_distribution }}.yml"
+
